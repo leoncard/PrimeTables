@@ -16,4 +16,11 @@ public class PrimeTablesTest {
         assertEquals(result,2); //Assert
     }
     
+    @Test
+    public void findPrime_nEqualsZero_ReturnNull(){
+        PrimeFinder pf = new PrimeFinder(); //Arrange
+        int result = pf.findPrime(0); //Act
+        assertEquals(result,null); //Assert
+    }
+    
 }

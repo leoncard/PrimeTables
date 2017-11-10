@@ -19,7 +19,7 @@ public class PrimeTablesTest {
     @Test
     public void findPrime_nEqualsZero_ReturnNull(){
         PrimeFinder pf = new PrimeFinder(); //Arrange
-        int result = pf.findPrime(0); //Act
+        Integer result = pf.findPrime(0); //Act
         assertEquals(result,null); //Assert
     }
     

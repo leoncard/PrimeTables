@@ -6,7 +6,10 @@ package primetables;
  */
 class PrimeFinder {
 
-    int findPrime(int n) {
+    Integer findPrime(int n) {
+        if(n<1){
+            return null;
+        }
         return 2;
     }
     

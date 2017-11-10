@@ -1,16 +1,25 @@
 package primetables;
 
+import java.util.ArrayList;
+import static java.util.Arrays.asList;
+import java.util.Collection;
+
 /**
  *
  * @author Leonardo Cardoso
  */
 class PrimeFinder {
 
-    Integer findPrime(int n) {
-        if(n<1){
-            return null;
+    int[] findPrime(int n) {
+        if(numberNotAcceptedCondition(n)){
+            return defaultValue;
         }
-        return 2;
+        return new int[]{2};
+    }
+    protected final int[] defaultValue = null;
+
+    protected boolean numberNotAcceptedCondition(int n) {
+        return n<1;
     }
     
 }

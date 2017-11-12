@@ -61,7 +61,7 @@ public class PrimeTablesTest {
         int [] primesFound = eratosthenesFinder.find(2);
         IMatrixComputationBehaviour computeMatrixProduct = new MatrixProduct();
         MatrixHandler matrixProductComputation = new MatrixHandler(computeMatrixProduct);
-        int [][] matrixFound = matrixProductComputation.calculateMatrixProduct(primesFound);
+        int [][] matrixFound = matrixProductComputation.calculateMatrix(primesFound);
         int [][] expected = new int[][]{{4,6},{6,9}};
         assertEquals(expected,matrixFound);
     }

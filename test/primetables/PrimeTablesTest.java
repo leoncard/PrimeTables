@@ -37,7 +37,9 @@ public class PrimeTablesTest {
   public Object[][] createMatrixProductData() {
 	  return new Object[][] {
               {new int[]{2,3},new int[][]{{4,6},{6,9}}},
-              {new int[]{2},new int[][]{{4}}}
+              {new int[]{2}, new int[][]{{4}}},
+              {new int[]{}, new int[][]{}},
+              {null,null}
           };
   }
   

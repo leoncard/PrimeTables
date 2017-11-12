@@ -35,19 +35,22 @@ public class PrimeTablesTest {
   
     @Test(dataProvider = "invalidInputs")
     public void findPrime_nInvalidNumber_ReturnNull(int n, int[] expected){
-        PrimeFinder pf = new PrimeFinder(); //Arrange
-        assertEquals(pf.findPrimes(n),expected); //Assert
+        IFinderBehaviour eratosthenes = new EratosthenesFinder();
+        PrimeFinder pf = new PrimeFinder(eratosthenes); //Arrange
+        assertEquals(pf.find(n),expected); //Assert
     }
     
     @Test(dataProvider = "expectedPrimes")
     public void findPrime_n_ReturnExpectedPrimes(int n, int[] expected){
-        PrimeFinder pf = new PrimeFinder();
-        assertEquals(pf.findPrimes(n),expected);
+        IFinderBehaviour eratosthenes = new EratosthenesFinder();
+        PrimeFinder pf = new PrimeFinder(eratosthenes);
+        assertEquals(pf.find(n),expected);
     }
     
     @Test
     public void findPrime_n10Million_ReturnExpectedPrimes(){
-        PrimeFinder pf = new PrimeFinder();
-        assertEquals(pf.findPrimes(10000000).length,10000000);
+        IFinderBehaviour eratosthenes = new EratosthenesFinder();
+        PrimeFinder pf = new PrimeFinder(eratosthenes);
+        assertEquals(pf.find(10000000).length,10000000);
     }
 }

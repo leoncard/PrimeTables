@@ -72,4 +72,11 @@ public class PrimeTablesTest {
         assertEquals(expected,matrixFound);
     }
     
+    @Test(dataProvider = "multiplicationTables")
+    public void displayMultiplicationTable_n_ReturnMultiplicationTable(int[] primesFound, int[][] MatrixProduct, int[][]expected){
+        IMatrixDisplayBehaviour displayMultiplicationTable = new MultiplicationTableDisplay();
+        MatrixHandler outputMatrix = new MatrixHandler(displayMultiplicationTable);
+        int [][] matrixFound = outputMatrix.generateMultiplicationTableDisplay(primesFound, MatrixProduct);
+        assertEquals(expected,matrixFound);
+    }   
 }

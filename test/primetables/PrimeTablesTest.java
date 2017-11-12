@@ -33,6 +33,14 @@ public class PrimeTablesTest {
           };
   }
   
+  @DataProvider(name="matricesProduct")
+  public Object[][] createMatrixProductData() {
+	  return new Object[][] {
+              {new int[]{2,3},new int[][]{{4,6},{6,9}}},
+              {new int[]{2},new int[][]{{4}}}
+          };
+  }
+  
     @Test(dataProvider = "invalidInputs")
     public void findPrime_nInvalidNumber_ReturnNull(int n, int[] expected){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
@@ -54,15 +62,11 @@ public class PrimeTablesTest {
         assertEquals(eratosthenesFinder.find(10000000).length,10000000);
     }
     
-    @Test
-    public void buildMultiplicationMatrix_n2_ReturnMultiplicationMatrix(){
-        IFinderBehaviour eratosthenes = new EratosthenesFinder();
-        PrimeFinder eratosthenesFinder = new PrimeFinder(eratosthenes);
-        int [] primesFound = eratosthenesFinder.find(2);
+    @Test(dataProvider = "matricesProduct")
+    public void calculateMatrixProduct_n_ReturnExpectedMatrixProduct(int[] primesFound, int[][]expected){
         IMatrixComputationBehaviour computeMatrixProduct = new MatrixProduct();
         MatrixHandler matrixProductComputation = new MatrixHandler(computeMatrixProduct);
         int [][] matrixFound = matrixProductComputation.calculateMatrix(primesFound);
-        int [][] expected = new int[][]{{4,6},{6,9}};
         assertEquals(expected,matrixFound);
     }
     

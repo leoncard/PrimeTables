@@ -16,7 +16,8 @@ public class PrimeTablesTest {
 		{ 1, new int[]{2}},
                 { 2, new int[]{2,3}},
                 { 3, new int[]{2,3,5}},
-                { 4, new int[]{2,3,5,7}}
+                { 4, new int[]{2,3,5,7}},
+                { 5, new int[]{2,3,5,7,11}} //added test, initally fails, now passes
 	  };
   }
     

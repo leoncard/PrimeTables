@@ -1,5 +1,7 @@
 package primetables;
 
+import java.util.Arrays;
+
 /**
  *
  * @author Leonardo Cardoso
@@ -11,9 +13,18 @@ class PrimeFinder {
             return defaultValue;
         }
         int [] primesArray = new int[n];
+        boolean[] numbersToCheckArray = new boolean[upperBoundary(n)];
+        Arrays.fill(numbersToCheckArray, true);
+        for(int primeCandidate = lowerBoundary; primeCandidate<upperBoundary(n); primeCandidate++){
+            if(numbersToCheckArray[primeCandidate]==true){
+                for (int nonPrime = (int)Math.pow(primeCandidate, 2); nonPrime<upperBoundary(n);nonPrime+=primeCandidate){
+                    numbersToCheckArray[nonPrime]=false;
+                }
+            }
+        }
         int primesFound = 0;
-        for(int i = lowerBoundary; i<upperBoundary(n) && primesFound<n; i++){
-            if(i==2 || i%2!=0){ //initialy, just cutting off all multiples of 2, minimum solution to pass test
+        for (int i =lowerBoundary; i<upperBoundary(n) && primesFound<n;i++){
+            if(numbersToCheckArray[i]==true){
                 primesArray[primesFound]=i;
                 primesFound++;
             }

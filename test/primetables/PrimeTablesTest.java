@@ -36,21 +36,34 @@ public class PrimeTablesTest {
     @Test(dataProvider = "invalidInputs")
     public void findPrime_nInvalidNumber_ReturnNull(int n, int[] expected){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
-        PrimeFinder pf = new PrimeFinder(eratosthenes); //Arrange
-        assertEquals(pf.find(n),expected); //Assert
+        PrimeFinder eratosthenesFinder = new PrimeFinder(eratosthenes); //Arrange
+        assertEquals(eratosthenesFinder.find(n),expected); //Assert
     }
     
     @Test(dataProvider = "expectedPrimes")
     public void findPrime_n_ReturnExpectedPrimes(int n, int[] expected){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
-        PrimeFinder pf = new PrimeFinder(eratosthenes);
-        assertEquals(pf.find(n),expected);
+        PrimeFinder eratosthenesFinder = new PrimeFinder(eratosthenes);
+        assertEquals(eratosthenesFinder.find(n),expected);
     }
     
     @Test
     public void findPrime_n10Million_ReturnExpectedPrimes(){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
-        PrimeFinder pf = new PrimeFinder(eratosthenes);
-        assertEquals(pf.find(10000000).length,10000000);
+        PrimeFinder eratosthenesFinder = new PrimeFinder(eratosthenes);
+        assertEquals(eratosthenesFinder.find(10000000).length,10000000);
     }
+    
+    @Test
+    public void buildMultiplicationMatrix_n2_ReturnMultiplicationMatrix(){
+        IFinderBehaviour eratosthenes = new EratosthenesFinder();
+        PrimeFinder eratosthenesFinder = new PrimeFinder(eratosthenes);
+        int [] primesFound = eratosthenesFinder.find(2);
+        IMatrixComputationBehaviour computeMatrixProduct = new MatrixProduct();
+        MatrixHandler matrixProductComputation = new MatrixHandler(computeMatrixProduct);
+        int [][] matrixFound = matrixProductComputation.calculateMatrixProduct(primesFound);
+        int [][] expected = new int[][]{{4,6},{6,9}};
+        assertEquals(expected,matrixFound);
+    }
+    
 }

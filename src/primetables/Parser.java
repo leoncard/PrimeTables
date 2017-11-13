@@ -7,7 +7,7 @@ public class Parser {
 		parseBehaviour=selectedParserBehaviour;
 	}
 	
-	public int parseToInt(String n){
+	public Integer parseToInt(String n){
 		return parseBehaviour.getParsedOutput(n);
 	}
 

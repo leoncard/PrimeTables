@@ -2,6 +2,6 @@ package primetables;
 
 public interface IParserBehaviour {
 
-	int getParsedOutput(String n);
+	Integer getParsedOutput(String n);
 
 }

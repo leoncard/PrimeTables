@@ -29,7 +29,7 @@ Because I had 7 days to finish, I decided to play a bit more with TDD before com
 
 I would spend more time trying to decouple the code, specially testing other kinds of patterns for this specific problem to see the difference in code cohesion and decoupling, and also to improve my Refactoring skills on TDD.
 
-I knew the algorithm to solve the problem from the start but because I wasn't used to TDD yet I spent lots of time trying to understand how to provide the minimum code to pass the tests. I did Red, Green, Refactor, implementing the failing test, then the minimum production code to pass the test and refactored. If I had more time I would spend more time practicing TDD.
+I knew the algorithm to solve the problem when I started implementing but because I wasn't used to TDD yet I spent lots of time trying to understand how to provide the minimum code to pass the tests. I did Red, Green, Refactor, implementing the failing test, then the minimum production code to pass the test and refactored. If I had more time I would spend more time practicing TDD.
 
 I would also add more tests for Branch and Path Coverage as TDD not always cover all cases.
 

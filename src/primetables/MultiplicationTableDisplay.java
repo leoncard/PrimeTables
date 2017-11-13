@@ -11,7 +11,7 @@ class MultiplicationTableDisplay implements IMatrixDisplayBehaviour {
 
     @Override
     public void display(int[] factorsArray, long[][] matrixProduct) {
-    	if(factorsArray==null || matrixProduct==null){
+    	if(inputIsNull(factorsArray, matrixProduct)){
     		System.out.printf("");
     	}
     	else{
@@ -35,6 +35,10 @@ class MultiplicationTableDisplay implements IMatrixDisplayBehaviour {
 	        }
 	        System.out.println();
     	}
+	}
+
+	private boolean inputIsNull(int[] factorsArray, long[][] matrixProduct) {
+		return factorsArray==null || matrixProduct==null;
 	}
     
 }

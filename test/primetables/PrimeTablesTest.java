@@ -1,5 +1,6 @@
 package primetables;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
@@ -145,6 +146,17 @@ public class PrimeTablesTest {
         MatrixHandler outputMatrix = new MatrixHandler(displayMultiplicationTable);
         outputMatrix.generateMultiplicationTableDisplay(primesFound, matrixProduct);
         assertEquals(outContent.toString(),expected);
+    }
+    
+    @Test
+    public void testScanner(String expected){
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        ScanKeysPrintTable sp = new ScanKeysPrintTable();
+        ByteArrayInputStream in = new ByteArrayInputStream("exit".getBytes());
+        System.setIn(in);
+        sp.scanKeys(System.in);
+        assertTrue(outContent.toString().contains(expected));
     }
     
 }

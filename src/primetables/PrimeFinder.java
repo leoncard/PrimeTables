@@ -12,7 +12,7 @@ public class PrimeFinder {
 		primeFinderBehaviour = selectedBehaviour;
 	}
         
-       public int [] find(int n){
+       public int [] find(Integer n){
 		return primeFinderBehaviour.findPrimes(n);
 	}
 

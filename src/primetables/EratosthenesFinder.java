@@ -9,9 +9,9 @@ import java.util.Arrays;
 public class EratosthenesFinder implements IFinderBehaviour{
 
     @Override
-    public int[] findPrimes(int n) {
+    public int[] findPrimes(Integer n) {
         if(numberNotAccepted(n)){
-            return defaultValue;
+            return null;
         }
         boolean[] checkedIndexesArray = crossOutNonPrimes(n);
         int [] primesArray = getPrimes(n, checkedIndexesArray);
@@ -56,8 +56,8 @@ public class EratosthenesFinder implements IFinderBehaviour{
                 numerOfPrimesToConsider<=6 ? (int)Math.ceil(numerOfPrimesToConsider*(Math.log(numerOfPrimesToConsider)+Math.log(Math.log(numerOfPrimesToConsider)))+8) :
                 (int)Math.ceil(numerOfPrimesToConsider*(Math.log(numerOfPrimesToConsider)+Math.log(Math.log(numerOfPrimesToConsider)))); //Barkley Rosser, 1938
     }
-    protected boolean numberNotAccepted(int n) {
-        return n<1;
+    protected boolean numberNotAccepted(Integer n) {
+        return (n==null || n<1);
     }
     
 }

@@ -44,7 +44,8 @@ public class PrimeTablesTest {
   public Object[][] createInvalidInputData() {
 	  return new Object[][] {
               {Integer.MIN_VALUE,null},
-              {0,null}
+              {0,null},
+              {null,null}
           };
   }
   
@@ -63,7 +64,8 @@ public class PrimeTablesTest {
   public Object[][] createParser_Finder_MatrixProduct_MultiplicationTableData() {
 	  return new Object[][] {
               {"2","|  | 2| 3|\n" +"| 2| 4| 6|\n" +"| 3| 6| 9|\n\n"},
-              {"3", "|   |  2|  3|  5|\n" + "|  2|  4|  6| 10|\n" + "|  3|  6|  9| 15|\n" + "|  5| 10| 15| 25|\n\n"}
+              {"3", "|   |  2|  3|  5|\n" + "|  2|  4|  6| 10|\n" + "|  3|  6|  9| 15|\n" + "|  5| 10| 15| 25|\n\n"},
+              {"65fyt",""}
           };
   }
   
@@ -71,12 +73,15 @@ public class PrimeTablesTest {
   public Object[][] createMultiplicationTableData() {
 	  return new Object[][] {
               {new int[]{2,3},new long[][]{{4,6},{6,9}},"|  | 2| 3|\n" +"| 2| 4| 6|\n" +"| 3| 6| 9|\n\n"},
-              {new int[]{2,3,5}, new long[][]{{4,6,10},{6,9,15},{10,15,25}}, "|   |  2|  3|  5|\n" + "|  2|  4|  6| 10|\n" + "|  3|  6|  9| 15|\n" + "|  5| 10| 15| 25|\n\n"}
+              {new int[]{2,3,5}, new long[][]{{4,6,10},{6,9,15},{10,15,25}}, "|   |  2|  3|  5|\n" + "|  2|  4|  6| 10|\n" + "|  3|  6|  9| 15|\n" + "|  5| 10| 15| 25|\n\n"},
+              {null,new long[][]{{4,6,10},{6,9,15},{10,15,25}},""},
+              {new int[]{2,3,5},null,""},
+			  {null,null,""},
           };
   }
   
     @Test(dataProvider = "invalidInputs")
-    public void findPrime_nInvalidNumber_ReturnNull(int n, int[] expected){
+    public void findPrime_nInvalidNumber_ReturnNull(Integer n, int[] expected){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
         PrimeFinder eratosthenesFinder = new PrimeFinder(eratosthenes); //Arrange
         assertEquals(eratosthenesFinder.find(n),expected); //Assert

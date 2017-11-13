@@ -1,5 +1,9 @@
 package primetables;
 
+/**
+ *
+ * @author Leonardo Cardoso
+ */
 public class IntParser implements IParserBehaviour{
 
 	@Override

@@ -40,6 +40,13 @@ public class PrimeTablesTest {
               {"87ydwes8g23dewf",null},
           };
   }
+  
+  @DataProvider(name="scannerInputs")
+  public Object[][] createScannerInputData() {
+	  return new Object[][] {
+              {"Exiting..."}
+          };
+  }
     
   @DataProvider(name="invalidInputs")
   public Object[][] createInvalidInputData() {
@@ -148,7 +155,7 @@ public class PrimeTablesTest {
         assertEquals(outContent.toString(),expected);
     }
     
-    @Test
+    @Test(dataProvider="scannerInputs")
     public void testScanner(String expected){
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));

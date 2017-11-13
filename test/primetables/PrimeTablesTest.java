@@ -84,7 +84,7 @@ public class PrimeTablesTest {
         IMatrixComputationBehaviour computeMatrixProduct = new MatrixProduct();
         MatrixHandler matrixProductComputation = new MatrixHandler(computeMatrixProduct);
         long [][] matrixFound = matrixProductComputation.calculateMatrix(primesFound);
-        ArrayAsserts.assertArrayEquals(expected, matrixFound); //So that it passes on Eclipse's TestNG 6.12
+        ArrayAsserts.assertArrayEquals(matrixFound,expected); //So that it passes on Eclipse's TestNG 6.12
     }
     
     @Test(dataProvider = "multiplicationTables")
@@ -95,5 +95,13 @@ public class PrimeTablesTest {
         MatrixHandler outputMatrix = new MatrixHandler(displayMultiplicationTable);
         outputMatrix.generateMultiplicationTableDisplay(primesFound, MatrixProduct);
         assertEquals(outContent.toString(),expected);
-    }   
+    }
+    
+    @Test
+    public void parser_n_ReturnedParsedInt(){
+    	IParserBehaviour parseInt = new IntParser();
+        Parser parser = new Parser(parseInt);
+        assertEquals(n,parser.parse(n));
+    }
+    
 }

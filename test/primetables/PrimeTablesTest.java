@@ -59,6 +59,14 @@ public class PrimeTablesTest {
           };
   }
   
+  @DataProvider(name="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData")
+  public Object[][] createParser_Finder_MatrixProduct_MultiplicationTableData() {
+	  return new Object[][] {
+              {"2","|  | 2| 3|\n" +"| 2| 4| 6|\n" +"| 3| 6| 9|\n\n"},
+              {"3", "|   |  2|  3|  5|\n" + "|  2|  4|  6| 10|\n" + "|  3|  6|  9| 15|\n" + "|  5| 10| 15| 25|\n\n"}
+          };
+  }
+  
   @DataProvider(name="multiplicationTables")
   public Object[][] createMultiplicationTableData() {
 	  return new Object[][] {
@@ -113,6 +121,25 @@ public class PrimeTablesTest {
     	IParserBehaviour parseInt = new IntParser();
         Parser parser = new Parser(parseInt);
         assertEquals(parser.parseToInt(input),expected);
+    }
+    
+    @Test(dataProvider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData")
+    public void integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(String input, String expected){
+    	IParserBehaviour parseInt = new IntParser();
+        Parser parser = new Parser(parseInt);
+        Integer n = parser.parseToInt(input);
+        IFinderBehaviour eratosthenes = new EratosthenesFinder();
+        PrimeFinder eratosthenesFinder = new PrimeFinder(eratosthenes);
+        IMatrixDisplayBehaviour displayMultiplicationTable = new MultiplicationTableDisplay();
+        int[]primesFound = eratosthenesFinder.find(n);
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        IMatrixComputationBehaviour computeMatrixProduct = new MatrixProduct();
+        MatrixHandler matrixProductComputation = new MatrixHandler(computeMatrixProduct);
+        long [][] matrixProduct = matrixProductComputation.calculateMatrix(primesFound);
+        MatrixHandler outputMatrix = new MatrixHandler(displayMultiplicationTable);
+        outputMatrix.generateMultiplicationTableDisplay(primesFound, matrixProduct);
+        assertEquals(outContent.toString(),expected);
     }
     
 }

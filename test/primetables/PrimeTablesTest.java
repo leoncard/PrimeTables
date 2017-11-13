@@ -98,10 +98,10 @@ public class PrimeTablesTest {
     }
     
     @Test
-    public void parser_n_ReturnedParsedInt(){
+    public void parser_n_ReturnedParsedInt(String input){
     	IParserBehaviour parseInt = new IntParser();
         Parser parser = new Parser(parseInt);
-        assertEquals(n,parser.parse(n));
+        assertEquals(input,parser.parseToInt(input));
     }
     
 }

@@ -6,6 +6,6 @@ package primetables;
  */
 public interface IMatrixComputationBehaviour {
 
-    public int[][] calculate(int[] n);
+    public long[][] calculate(int[] n);
     
 }

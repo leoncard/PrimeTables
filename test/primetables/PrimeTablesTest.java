@@ -40,9 +40,10 @@ public class PrimeTablesTest {
   @DataProvider(name="matricesProduct")
   public Object[][] createMatrixProductData() {
 	  return new Object[][] {
-              {new int[]{2,3},new int[][]{{4,6},{6,9}}},
-              {new int[]{2}, new int[][]{{4}}},
-              {new int[]{}, new int[][]{}},
+              {new int[]{2,3},new long[][]{{4,6},{6,9}}},
+              {new int[]{2}, new long[][]{{4}}},
+              {new int[]{104729}, new long[][]{{10968163441L}}},
+              {new int[]{}, new long[][]{}},
               {null,null}
           };
   }
@@ -50,8 +51,8 @@ public class PrimeTablesTest {
   @DataProvider(name="multiplicationTables")
   public Object[][] createMultiplicationTableData() {
 	  return new Object[][] {
-              {new int[]{2,3},new int[][]{{4,6},{6,9}},"|  | 2| 3|\n" +"| 2| 4| 6|\n" +"| 3| 6| 9|\n\n"},
-              {new int[]{2,3,5}, new int[][]{{4,6,10},{6,9,15},{10,15,25}}, "|   |  2|  3|  5|\n" + "|  2|  4|  6| 10|\n" + "|  3|  6|  9| 15|\n" + "|  5| 10| 15| 25|\n\n"}
+              {new int[]{2,3},new long[][]{{4,6},{6,9}},"|  | 2| 3|\n" +"| 2| 4| 6|\n" +"| 3| 6| 9|\n\n"},
+              {new int[]{2,3,5}, new long[][]{{4,6,10},{6,9,15},{10,15,25}}, "|   |  2|  3|  5|\n" + "|  2|  4|  6| 10|\n" + "|  3|  6|  9| 15|\n" + "|  5| 10| 15| 25|\n\n"}
           };
   }
   
@@ -76,16 +77,18 @@ public class PrimeTablesTest {
         assertEquals(eratosthenesFinder.find(10000000).length,10000000);
     }
     
+
+    
     @Test(dataProvider = "matricesProduct")
-    public void calculateMatrixProduct_n_ReturnExpectedMatrixProduct(int[] primesFound, int[][]expected){
+    public void calculateMatrixProduct_n_ReturnExpectedMatrixProduct(int[] primesFound, long[][]expected){
         IMatrixComputationBehaviour computeMatrixProduct = new MatrixProduct();
         MatrixHandler matrixProductComputation = new MatrixHandler(computeMatrixProduct);
-        int [][] matrixFound = matrixProductComputation.calculateMatrix(primesFound);
+        long [][] matrixFound = matrixProductComputation.calculateMatrix(primesFound);
         ArrayAsserts.assertArrayEquals(expected, matrixFound); //So that it passes on Eclipse's TestNG 6.12
     }
     
     @Test(dataProvider = "multiplicationTables")
-    public void displayMultiplicationTable_n_ReturnMultiplicationTable(int[] primesFound, int[][] MatrixProduct, String expected){
+    public void displayMultiplicationTable_n_ReturnMultiplicationTable(int[] primesFound, long[][] MatrixProduct, String expected){
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
         IMatrixDisplayBehaviour displayMultiplicationTable = new MultiplicationTableDisplay();

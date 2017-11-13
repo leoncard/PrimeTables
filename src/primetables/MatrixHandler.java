@@ -17,11 +17,11 @@ public class MatrixHandler {
 		displayBehaviour = selectedDisplayBehaviour;
 	}
         
-       public int [][] calculateMatrix(int []n){
+       public long [][] calculateMatrix(int []n){
 		return computationBehaviour.calculate(n);
 	}
 
-    void generateMultiplicationTableDisplay(int[] primesFound, int[][] matrixProduct) {
+    void generateMultiplicationTableDisplay(int[] primesFound, long[][] matrixProduct) {
     	displayBehaviour.display(primesFound, matrixProduct);
     }
 

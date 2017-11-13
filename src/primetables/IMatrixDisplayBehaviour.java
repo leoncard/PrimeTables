@@ -6,6 +6,6 @@ package primetables;
  */
 public interface IMatrixDisplayBehaviour {
 
-    public void display(int[] primesFound, int[][] matrixProduct);
+	public void display(int[] primesFound, long[][] matrixProduct);
     
 }

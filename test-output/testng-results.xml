@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2573" started-at="2017-11-14T03:51:07Z" finished-at="2017-11-14T03:51:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2573" started-at="2017-11-14T03:51:07Z" finished-at="2017-11-14T03:51:10Z">
+      <class name="primetables.PrimeTablesTest">
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="11" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3a5ed7a6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[J@6325a3ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1d16f93d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[J@67b92f0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2b9627bc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[J@65e2dbf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4f970963]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[J@61f8bee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="4" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7b49cea0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[J@887af79]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[|  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7fac631b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[J@5b87ed94]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[|   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[J@6e0e048a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5bc79255]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
+        <test-method status="PASS" signature="findPrime_n10Million_ReturnExpectedPrimes()[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n10Million_ReturnExpectedPrimes" duration-ms="2427" started-at="2017-11-14T03:51:07Z" finished-at="2017-11-14T03:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n10Million_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="invalidInputs" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_nInvalidNumber_ReturnNull -->
+        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="invalidInputs" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_nInvalidNumber_ReturnNull -->
+        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="invalidInputs" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_nInvalidNumber_ReturnNull -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@47ef968d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@23e028a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@3dd4520b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="0" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@5ae63ade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@610694f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@43814d18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@5c5a1b69]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="0" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@3701eaf6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@627551fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
+        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="8" started-at="2017-11-14T03:51:10Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[|  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay -->
+        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="2" started-at="2017-11-14T03:51:10Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[|   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay -->
+        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[65fyt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay -->
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parser_n_ReturnedParsedInt -->
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parser_n_ReturnedParsedInt -->
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parser_n_ReturnedParsedInt -->
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parser_n_ReturnedParsedInt -->
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[87ydwes8g23dewf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parser_n_ReturnedParsedInt -->
+        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="13" started-at="2017-11-14T03:51:10Z" data-provider="scannerInputs" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[exit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Exiting...]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScanner -->
+        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="3" started-at="2017-11-14T03:51:10Z" data-provider="scannerInputs" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[|  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScanner -->
+        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="3" started-at="2017-11-14T03:51:10Z" data-provider="scannerInputs" finished-at="2017-11-14T03:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[|   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScanner -->
+      </class> <!-- primetables.PrimeTablesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

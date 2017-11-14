@@ -3,12 +3,19 @@ package primetables;
 /**
  *
  * @author Leonardo Cardoso
+ * Class that implements the IMatrixDisplayBehaviour providing the console display behaviour 
+ * to show the primes' multiplication table.
  */
 class MultiplicationTableDisplay implements IMatrixDisplayBehaviour {
 
     public MultiplicationTableDisplay() {
     }
 
+    /*
+     * Prints the multiplication table in the console.
+     * @param factorsArray the factors of the multiplication table
+     * @matrixProduct the products of the factors
+     * */
     @Override
     public void display(int[] factorsArray, long[][] matrixProduct) {
     	if(inputIsNull(factorsArray, matrixProduct)){
@@ -37,6 +44,9 @@ class MultiplicationTableDisplay implements IMatrixDisplayBehaviour {
     	}
 	}
 
+    /*
+     * Verifies if the arrays passed as input are null.
+     * */
 	private boolean inputIsNull(int[] factorsArray, long[][] matrixProduct) {
 		return factorsArray==null || matrixProduct==null;
 	}

@@ -3,9 +3,15 @@ package primetables;
 /**
  *
  * @author Leonardo Cardoso
+ * Class that implements the IMatrixComputationBehaviour and provides the MatrixProduct computation behaviour.
  */
 public class MatrixProduct implements IMatrixComputationBehaviour {
 
+	/*
+	 * Calculates the matrix product
+	 * @factorsArray The array of numbers used in the computation
+	 * @return the Matrix Product
+	 * */
     @Override
     public long[][] calculate(int[] factorsArray) {
         if(factorsArray==null){

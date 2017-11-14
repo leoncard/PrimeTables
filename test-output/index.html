@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="calculateMatrixProduct_n_ReturnExpectedMatrixProduct(null, null)">calculateMatrixProduct_n_ReturnExpectedMatrixProduct(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([104729], [[10968163441]])">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([104729], [[10968163441]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([], [])">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([], [])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2], [[4]])">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2], [[4]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2, 3], [[4, 6], [6, 9]])">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2, 3], [[4, 6], [6, 9]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="displayMultiplicationTable_n_ReturnMultiplicationTable(null, null, )">displayMultiplicationTable_n_ReturnMultiplicationTable(null, null, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], [[4, 6, 10], [6, 9, 15], [10, 15, 25]], |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9|...)">displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], [[4, 6, 10], [6, 9, 15], [10, 15, 25]], |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9|...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="displayMultiplicationTable_n_ReturnMultiplicationTable(null, [[4, 6, 10], [6, 9, 15], [10, 15, 25]], )">displayMultiplicationTable_n_ReturnMultiplicationTable(null, [[4, 6, 10], [6, 9, 15], [10, 15, 25]], )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3], [[4, 6], [6, 9]], |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)">displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3], [[4, 6], [6, 9]], |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], null, )">displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], null, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n10Million_ReturnExpectedPrimes">findPrime_n10Million_ReturnExpectedPrimes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_nInvalidNumber_ReturnNull(-2147483648, null)">findPrime_nInvalidNumber_ReturnNull(-2147483648, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_nInvalidNumber_ReturnNull(null, null)">findPrime_nInvalidNumber_ReturnNull(null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_nInvalidNumber_ReturnNull(0, null)">findPrime_nInvalidNumber_ReturnNull(0, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(2, [2, 3])">findPrime_n_ReturnExpectedPrimes(2, [2, 3])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(1, [2])">findPrime_n_ReturnExpectedPrimes(1, [2])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(4, [2, 3, 5, 7])">findPrime_n_ReturnExpectedPrimes(4, [2, 3, 5, 7])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(5, [2, 3, 5, 7, 11])">findPrime_n_ReturnExpectedPrimes(5, [2, 3, 5, 7, 11])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(3, [2, 3, 5])">findPrime_n_ReturnExpectedPrimes(3, [2, 3, 5])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(6, [2, 3, 5, 7, 11, 13])">findPrime_n_ReturnExpectedPrimes(6, [2, 3, 5, 7, 11, 13])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(7, [2, 3, 5, 7, 11, 13, 17])">findPrime_n_ReturnExpectedPrimes(7, [2, 3, 5, 7, 11, 13, 17])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(50, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,...)">findPrime_n_ReturnExpectedPrimes(50, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="findPrime_n_ReturnExpectedPrimes(100, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97...)">findPrime_n_ReturnExpectedPrimes(100, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(65fyt, )">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(65fyt, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="parser_n_ReturnedParsedInt(-1, null)">parser_n_ReturnedParsedInt(-1, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="parser_n_ReturnedParsedInt(87ydwes8g23dewf, null)">parser_n_ReturnedParsedInt(87ydwes8g23dewf, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="parser_n_ReturnedParsedInt(, null)">parser_n_ReturnedParsedInt(, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="parser_n_ReturnedParsedInt(2147483647, 2147483647)">parser_n_ReturnedParsedInt(2147483647, 2147483647)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="parser_n_ReturnedParsedInt(0, 0)">parser_n_ReturnedParsedInt(0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="testScanner(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)">testScanner(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="testScanner(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)">testScanner(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="primetables.PrimeTablesTest" hash-for-method="testScanner(exit, Exiting...)">testScanner(exit, Exiting...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">primetables.PrimeTablesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct(null, null)">
+                  </a> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct(null, null) -->
+                  <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct</span>
+                  <span class="parameters">(null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([104729], [[10968163441]])">
+                  </a> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct([104729], [[10968163441]]) -->
+                  <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct</span>
+                  <span class="parameters">([104729], [[10968163441]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([], [])">
+                  </a> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct([], []) -->
+                  <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct</span>
+                  <span class="parameters">([], [])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2], [[4]])">
+                  </a> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2], [[4]]) -->
+                  <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct</span>
+                  <span class="parameters">([2], [[4]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2, 3], [[4, 6], [6, 9]])">
+                  </a> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2, 3], [[4, 6], [6, 9]]) -->
+                  <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct</span>
+                  <span class="parameters">([2, 3], [[4, 6], [6, 9]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayMultiplicationTable_n_ReturnMultiplicationTable(null, null, )">
+                  </a> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable(null, null, ) -->
+                  <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable</span>
+                  <span class="parameters">(null, null, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], [[4, 6, 10], [6, 9, 15], [10, 15, 25]], |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9|...)">
+                  </a> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], [[4, 6, 10], [6, 9, 15], [10, 15, 25]], |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9|...) -->
+                  <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable</span>
+                  <span class="parameters">([2, 3, 5], [[4, 6, 10], [6, 9, 15], [10, 15, 25]], |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayMultiplicationTable_n_ReturnMultiplicationTable(null, [[4, 6, 10], [6, 9, 15], [10, 15, 25]], )">
+                  </a> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable(null, [[4, 6, 10], [6, 9, 15], [10, 15, 25]], ) -->
+                  <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable</span>
+                  <span class="parameters">(null, [[4, 6, 10], [6, 9, 15], [10, 15, 25]], )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3], [[4, 6], [6, 9]], |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)">
+                  </a> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3], [[4, 6], [6, 9]], |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+) -->
+                  <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable</span>
+                  <span class="parameters">([2, 3], [[4, 6], [6, 9]], |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], null, )">
+                  </a> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], null, ) -->
+                  <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable</span>
+                  <span class="parameters">([2, 3, 5], null, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n10Million_ReturnExpectedPrimes">
+                  </a> <!-- findPrime_n10Million_ReturnExpectedPrimes -->
+                  <span class="method-name">findPrime_n10Million_ReturnExpectedPrimes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_nInvalidNumber_ReturnNull(-2147483648, null)">
+                  </a> <!-- findPrime_nInvalidNumber_ReturnNull(-2147483648, null) -->
+                  <span class="method-name">findPrime_nInvalidNumber_ReturnNull</span>
+                  <span class="parameters">(-2147483648, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_nInvalidNumber_ReturnNull(null, null)">
+                  </a> <!-- findPrime_nInvalidNumber_ReturnNull(null, null) -->
+                  <span class="method-name">findPrime_nInvalidNumber_ReturnNull</span>
+                  <span class="parameters">(null, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_nInvalidNumber_ReturnNull(0, null)">
+                  </a> <!-- findPrime_nInvalidNumber_ReturnNull(0, null) -->
+                  <span class="method-name">findPrime_nInvalidNumber_ReturnNull</span>
+                  <span class="parameters">(0, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(2, [2, 3])">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(2, [2, 3]) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(2, [2, 3])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(1, [2])">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(1, [2]) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(1, [2])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(4, [2, 3, 5, 7])">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(4, [2, 3, 5, 7]) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(4, [2, 3, 5, 7])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(5, [2, 3, 5, 7, 11])">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(5, [2, 3, 5, 7, 11]) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(5, [2, 3, 5, 7, 11])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(3, [2, 3, 5])">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(3, [2, 3, 5]) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(3, [2, 3, 5])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(6, [2, 3, 5, 7, 11, 13])">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(6, [2, 3, 5, 7, 11, 13]) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(6, [2, 3, 5, 7, 11, 13])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(7, [2, 3, 5, 7, 11, 13, 17])">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(7, [2, 3, 5, 7, 11, 13, 17]) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(7, [2, 3, 5, 7, 11, 13, 17])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(50, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,...)">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(50, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,...) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(50, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findPrime_n_ReturnExpectedPrimes(100, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97...)">
+                  </a> <!-- findPrime_n_ReturnExpectedPrimes(100, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97...) -->
+                  <span class="method-name">findPrime_n_ReturnExpectedPrimes</span>
+                  <span class="parameters">(100, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)">
+                  </a> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+) -->
+                  <span class="method-name">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay</span>
+                  <span class="parameters">(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(65fyt, )">
+                  </a> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(65fyt, ) -->
+                  <span class="method-name">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay</span>
+                  <span class="parameters">(65fyt, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)">
+                  </a> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+) -->
+                  <span class="method-name">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay</span>
+                  <span class="parameters">(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parser_n_ReturnedParsedInt(-1, null)">
+                  </a> <!-- parser_n_ReturnedParsedInt(-1, null) -->
+                  <span class="method-name">parser_n_ReturnedParsedInt</span>
+                  <span class="parameters">(-1, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parser_n_ReturnedParsedInt(87ydwes8g23dewf, null)">
+                  </a> <!-- parser_n_ReturnedParsedInt(87ydwes8g23dewf, null) -->
+                  <span class="method-name">parser_n_ReturnedParsedInt</span>
+                  <span class="parameters">(87ydwes8g23dewf, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parser_n_ReturnedParsedInt(, null)">
+                  </a> <!-- parser_n_ReturnedParsedInt(, null) -->
+                  <span class="method-name">parser_n_ReturnedParsedInt</span>
+                  <span class="parameters">(, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parser_n_ReturnedParsedInt(2147483647, 2147483647)">
+                  </a> <!-- parser_n_ReturnedParsedInt(2147483647, 2147483647) -->
+                  <span class="method-name">parser_n_ReturnedParsedInt</span>
+                  <span class="parameters">(2147483647, 2147483647)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parser_n_ReturnedParsedInt(0, 0)">
+                  </a> <!-- parser_n_ReturnedParsedInt(0, 0) -->
+                  <span class="method-name">parser_n_ReturnedParsedInt</span>
+                  <span class="parameters">(0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScanner(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)">
+                  </a> <!-- testScanner(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+) -->
+                  <span class="method-name">testScanner</span>
+                  <span class="parameters">(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScanner(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)">
+                  </a> <!-- testScanner(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+) -->
+                  <span class="method-name">testScanner</span>
+                  <span class="parameters">(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScanner(exit, Exiting...)">
+                  </a> <!-- testScanner(exit, Exiting...) -->
+                  <span class="method-name">testScanner</span>
+                  <span class="parameters">(exit, Exiting...)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/6b/77grtd9n0y9cjqtcwt9jnvxw0000gn/T/testng-eclipse--1678999760/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;primetables.PrimeTablesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'findPrime_n10Million_ReturnExpectedPrimes')
+data.setCell(0, 2, 'primetables.PrimeTablesTest')
+data.setCell(0, 3, 2427);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testScanner')
+data.setCell(1, 2, 'primetables.PrimeTablesTest')
+data.setCell(1, 3, 13);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'calculateMatrixProduct_n_ReturnExpectedMatrixProduct')
+data.setCell(2, 2, 'primetables.PrimeTablesTest')
+data.setCell(2, 3, 11);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay')
+data.setCell(3, 2, 'primetables.PrimeTablesTest')
+data.setCell(3, 3, 8);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'displayMultiplicationTable_n_ReturnMultiplicationTable')
+data.setCell(4, 2, 'primetables.PrimeTablesTest')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testScanner')
+data.setCell(5, 2, 'primetables.PrimeTablesTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testScanner')
+data.setCell(6, 2, 'primetables.PrimeTablesTest')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay')
+data.setCell(7, 2, 'primetables.PrimeTablesTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'displayMultiplicationTable_n_ReturnMultiplicationTable')
+data.setCell(8, 2, 'primetables.PrimeTablesTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'calculateMatrixProduct_n_ReturnExpectedMatrixProduct')
+data.setCell(9, 2, 'primetables.PrimeTablesTest')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'calculateMatrixProduct_n_ReturnExpectedMatrixProduct')
+data.setCell(10, 2, 'primetables.PrimeTablesTest')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'calculateMatrixProduct_n_ReturnExpectedMatrixProduct')
+data.setCell(11, 2, 'primetables.PrimeTablesTest')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'displayMultiplicationTable_n_ReturnMultiplicationTable')
+data.setCell(12, 2, 'primetables.PrimeTablesTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'findPrime_nInvalidNumber_ReturnNull')
+data.setCell(13, 2, 'primetables.PrimeTablesTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'displayMultiplicationTable_n_ReturnMultiplicationTable')
+data.setCell(14, 2, 'primetables.PrimeTablesTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay')
+data.setCell(15, 2, 'primetables.PrimeTablesTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(16, 2, 'primetables.PrimeTablesTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'parser_n_ReturnedParsedInt')
+data.setCell(17, 2, 'primetables.PrimeTablesTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'findPrime_nInvalidNumber_ReturnNull')
+data.setCell(18, 2, 'primetables.PrimeTablesTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(19, 2, 'primetables.PrimeTablesTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(20, 2, 'primetables.PrimeTablesTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(21, 2, 'primetables.PrimeTablesTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(22, 2, 'primetables.PrimeTablesTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'calculateMatrixProduct_n_ReturnExpectedMatrixProduct')
+data.setCell(23, 2, 'primetables.PrimeTablesTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'parser_n_ReturnedParsedInt')
+data.setCell(24, 2, 'primetables.PrimeTablesTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(25, 2, 'primetables.PrimeTablesTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'displayMultiplicationTable_n_ReturnMultiplicationTable')
+data.setCell(26, 2, 'primetables.PrimeTablesTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'parser_n_ReturnedParsedInt')
+data.setCell(27, 2, 'primetables.PrimeTablesTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'findPrime_nInvalidNumber_ReturnNull')
+data.setCell(28, 2, 'primetables.PrimeTablesTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(29, 2, 'primetables.PrimeTablesTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'parser_n_ReturnedParsedInt')
+data.setCell(30, 2, 'primetables.PrimeTablesTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'parser_n_ReturnedParsedInt')
+data.setCell(31, 2, 'primetables.PrimeTablesTest')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(32, 2, 'primetables.PrimeTablesTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'findPrime_n_ReturnExpectedPrimes')
+data.setCell(33, 2, 'primetables.PrimeTablesTest')
+data.setCell(33, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">primetables.PrimeTablesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2, 3], [[4, 6], [6, 9]])</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([2], [[4]])</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([104729], [[10968163441]])</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct([], [])</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">calculateMatrixProduct_n_ReturnExpectedMatrixProduct(null, null)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3], [[4, 6], [6, 9]], |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], [[4, 6, 10], [6, 9, 15], [10, 15, 25]], |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9|...)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable(null, [[4, 6, 10], [6, 9, 15], [10, 15, 25]], )</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable([2, 3, 5], null, )</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayMultiplicationTable_n_ReturnMultiplicationTable(null, null, )</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n10Million_ReturnExpectedPrimes</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_nInvalidNumber_ReturnNull(-2147483648, null)</span>
+                <span class="method-start">2478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_nInvalidNumber_ReturnNull(0, null)</span>
+                <span class="method-start">2481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_nInvalidNumber_ReturnNull(null, null)</span>
+                <span class="method-start">2483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(1, [2])</span>
+                <span class="method-start">2486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(2, [2, 3])</span>
+                <span class="method-start">2488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(3, [2, 3, 5])</span>
+                <span class="method-start">2490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(4, [2, 3, 5, 7])</span>
+                <span class="method-start">2492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(5, [2, 3, 5, 7, 11])</span>
+                <span class="method-start">2493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(6, [2, 3, 5, 7, 11, 13])</span>
+                <span class="method-start">2495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(7, [2, 3, 5, 7, 11, 13, 17])</span>
+                <span class="method-start">2497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(50, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,...)</span>
+                <span class="method-start">2499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findPrime_n_ReturnExpectedPrimes(100, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97...)</span>
+                <span class="method-start">2501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</span>
+                <span class="method-start">2504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)</span>
+                <span class="method-start">2513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(65fyt, )</span>
+                <span class="method-start">2517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parser_n_ReturnedParsedInt(, null)</span>
+                <span class="method-start">2520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parser_n_ReturnedParsedInt(0, 0)</span>
+                <span class="method-start">2522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parser_n_ReturnedParsedInt(-1, null)</span>
+                <span class="method-start">2524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parser_n_ReturnedParsedInt(2147483647, 2147483647)</span>
+                <span class="method-start">2526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">parser_n_ReturnedParsedInt(87ydwes8g23dewf, null)</span>
+                <span class="method-start">2528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testScanner(exit, Exiting...)</span>
+                <span class="method-start">2530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testScanner(2, |  | 2| 3|
+| 2| 4| 6|
+| 3| 6| 9|
+
+)</span>
+                <span class="method-start">2544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testScanner(3, |   |  2|  3|  5|
+|  2|  4|  6| 10|
+|  3|  6|  9| 15|
+|  5| 10| 15| 25|
+
+)</span>
+                <span class="method-start">2548 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

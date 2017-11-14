@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2573" started-at="2017-11-14T03:51:07Z" finished-at="2017-11-14T03:51:10Z">
+  <suite name="Default suite" duration-ms="2210" started-at="2017-11-14T04:58:22Z" finished-at="2017-11-14T04:58:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2573" started-at="2017-11-14T03:51:07Z" finished-at="2017-11-14T03:51:10Z">
+    <test name="Default test" duration-ms="2210" started-at="2017-11-14T04:58:22Z" finished-at="2017-11-14T04:58:24Z">
       <class name="primetables.PrimeTablesTest">
-        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="11" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="11" started-at="2017-11-14T04:58:22Z" data-provider="matricesProduct" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
-        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T04:58:22Z" data-provider="matricesProduct" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
-        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T04:58:22Z" data-provider="matricesProduct" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
-        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T04:58:22Z" data-provider="matricesProduct" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
-        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="matricesProduct" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="calculateMatrixProduct_n_ReturnExpectedMatrixProduct([I, [[J)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="calculateMatrixProduct_n_ReturnExpectedMatrixProduct" duration-ms="2" started-at="2017-11-14T04:58:22Z" data-provider="matricesProduct" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateMatrixProduct_n_ReturnExpectedMatrixProduct -->
-        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="4" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="6" started-at="2017-11-14T04:58:22Z" data-provider="multiplicationTables" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
-        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="2" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="2" started-at="2017-11-14T04:58:22Z" data-provider="multiplicationTables" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
-        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T04:58:22Z" data-provider="multiplicationTables" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -153,7 +153,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
-        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="0" started-at="2017-11-14T04:58:22Z" data-provider="multiplicationTables" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value>
@@ -172,7 +172,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
-        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T03:51:07Z" data-provider="multiplicationTables" finished-at="2017-11-14T03:51:07Z">
+        <test-method status="PASS" signature="displayMultiplicationTable_n_ReturnMultiplicationTable([I, [[J, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="displayMultiplicationTable_n_ReturnMultiplicationTable" duration-ms="1" started-at="2017-11-14T04:58:22Z" data-provider="multiplicationTables" finished-at="2017-11-14T04:58:22Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -189,11 +189,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayMultiplicationTable_n_ReturnMultiplicationTable -->
-        <test-method status="PASS" signature="findPrime_n10Million_ReturnExpectedPrimes()[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n10Million_ReturnExpectedPrimes" duration-ms="2427" started-at="2017-11-14T03:51:07Z" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n10Million_ReturnExpectedNumberofPrimes()[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n10Million_ReturnExpectedNumberofPrimes" duration-ms="2088" started-at="2017-11-14T04:58:22Z" finished-at="2017-11-14T04:58:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findPrime_n10Million_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="invalidInputs" finished-at="2017-11-14T03:51:10Z">
+        </test-method> <!-- findPrime_n10Million_ReturnExpectedNumberofPrimes -->
+        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="invalidInputs" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_nInvalidNumber_ReturnNull -->
-        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="invalidInputs" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="invalidInputs" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_nInvalidNumber_ReturnNull -->
-        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="invalidInputs" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_nInvalidNumber_ReturnNull(java.lang.Integer, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_nInvalidNumber_ReturnNull" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="invalidInputs" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -233,7 +233,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_nInvalidNumber_ReturnNull -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -249,7 +249,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -265,7 +265,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -281,7 +281,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="0" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="0" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -297,7 +297,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -313,7 +313,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -329,7 +329,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -345,7 +345,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="0" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -361,7 +361,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="expectedPrimes" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="findPrime_n_ReturnExpectedPrimes(int, [I)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="findPrime_n_ReturnExpectedPrimes" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="expectedPrimes" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -377,7 +377,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findPrime_n_ReturnExpectedPrimes -->
-        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="8" started-at="2017-11-14T03:51:10Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="2" started-at="2017-11-14T04:58:24Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -397,7 +397,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay -->
-        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="2" started-at="2017-11-14T03:51:10Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="2" started-at="2017-11-14T04:58:24Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -418,7 +418,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay -->
-        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -434,7 +434,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay -->
-        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -448,7 +448,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parser_n_ReturnedParsedInt -->
-        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -464,7 +464,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parser_n_ReturnedParsedInt -->
-        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -478,7 +478,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parser_n_ReturnedParsedInt -->
-        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -494,7 +494,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parser_n_ReturnedParsedInt -->
-        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T03:51:10Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="parser_n_ReturnedParsedInt(java.lang.String, java.lang.Integer)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="parser_n_ReturnedParsedInt" duration-ms="1" started-at="2017-11-14T04:58:24Z" data-provider="stringInputsToIntParser" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -508,7 +508,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parser_n_ReturnedParsedInt -->
-        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="13" started-at="2017-11-14T03:51:10Z" data-provider="scannerInputs" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="6" started-at="2017-11-14T04:58:24Z" data-provider="scannerInputs" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -524,7 +524,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScanner -->
-        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="3" started-at="2017-11-14T03:51:10Z" data-provider="scannerInputs" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="2" started-at="2017-11-14T04:58:24Z" data-provider="scannerInputs" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>
@@ -544,7 +544,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScanner -->
-        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="3" started-at="2017-11-14T03:51:10Z" data-provider="scannerInputs" finished-at="2017-11-14T03:51:10Z">
+        <test-method status="PASS" signature="testScanner(java.lang.String, java.lang.String)[pri:0, instance:primetables.PrimeTablesTest@7ac7a4e4]" name="testScanner" duration-ms="2" started-at="2017-11-14T04:58:24Z" data-provider="scannerInputs" finished-at="2017-11-14T04:58:24Z">
           <params>
             <param index="0">
               <value>

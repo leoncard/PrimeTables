@@ -5,7 +5,7 @@
     <classes>
       <class name="primetables.PrimeTablesTest">
         <methods>
-          <include name="testMain" invocation-numbers="1 2"/>
+          <include name="testExecLoop" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- primetables.PrimeTablesTest -->
     </classes>

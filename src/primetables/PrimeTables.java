@@ -3,7 +3,7 @@ package primetables;
 *
 * @author Leonardo Cardoso
 */
-public class PrimesTable {
+public class PrimeTables {
 
 	public static void main(String[] args) {
 		ScanKeysPrintTable sp = new ScanKeysPrintTable();

@@ -1,15 +1,14 @@
 package primetables;
 
-/**
- *
- * @author Leonardo Cardoso
- * Searches for user inputs to find primes and build the multplication table
- */
-
 import java.util.Scanner;
+/**
+*
+* Searches for user inputs to find primes and build the multplication table
+* @author Leonardo Cardoso
+*/
 public class ScanKeysPrintTable {
 
-    /*
+    /**
      * Searches for the user input and builds the multiplication table
      * @param in The user input, which should be a valid number
      * */
@@ -27,7 +26,7 @@ public class ScanKeysPrintTable {
                 }
     }
 
-    /*
+    /**
      * Verifies if the entry can be converted from String to int.
      * */
     protected boolean isNumber(String n) {

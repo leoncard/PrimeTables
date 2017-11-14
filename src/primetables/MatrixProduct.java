@@ -2,14 +2,14 @@ package primetables;
 
 /**
  *
- * @author Leonardo Cardoso
  * Class that implements the IMatrixComputationBehaviour and provides the MatrixProduct computation behaviour.
+ * @author Leonardo Cardoso
  */
 public class MatrixProduct implements IMatrixComputationBehaviour {
 
-	/*
+	/**
 	 * Calculates the matrix product
-	 * @factorsArray The array of numbers used in the computation
+	 * @param factorsArray The array of numbers used in the computation
 	 * @return the Matrix Product
 	 * */
     @Override

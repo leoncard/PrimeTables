@@ -3,13 +3,13 @@ package primetables;
 import java.util.Arrays;
 
 /**
- *
- * @author Leonardo Cardoso
  * Class that implements the IFinderBehaviour providing the Erasthotenes algorithm behaviour to find N primes.
+ * @author Leonardo Cardoso
+ 
  */
 public class EratosthenesFinder implements IFinderBehaviour{
 
-	/*
+	/**
 	 * Method that find the primes 
 	 * @param n number of primes
 	 * @return primesArray The array of n primes
@@ -23,7 +23,7 @@ public class EratosthenesFinder implements IFinderBehaviour{
         int [] primesArray = getPrimes(n, checkedIndexesArray);
         return primesArray;
     }
-    	/*
+    	/**
     	 * Crosses out all the non prime numbers less than Math.sqrt(upperBoundary)
     	 * @param n: The number of primes.
     	 * */
@@ -41,7 +41,7 @@ public class EratosthenesFinder implements IFinderBehaviour{
         return numbersToCheckArray;
     }
         
-    /*
+    /**
      * Checks if the corresponding a number has been crossed out
      * @param numbersToCheckArray The boolean array representing the numbers that will be crossed out or not.
      * @param primeCandidate The number to check if was crossed out or not.
@@ -50,7 +50,7 @@ public class EratosthenesFinder implements IFinderBehaviour{
         return numbersToCheckArray[primeCandidate]==true;
     }
     
-    /*
+    /**
      * Returns the primes found
      * @param n The number of primes.
      * @param checkedNumbersArray The boolean array containing the crossed out and non crossed out numbers.
@@ -70,7 +70,7 @@ public class EratosthenesFinder implements IFinderBehaviour{
     protected final int firstPrime = 2;
     protected int firstPrimeCandidate = firstPrime;
     
-    /*
+    /**
      *Returns a number higher than the nth prime.
      * @param n The number of primes.
      * */
@@ -80,7 +80,7 @@ public class EratosthenesFinder implements IFinderBehaviour{
                 numerOfPrimesToConsider<=6 ? (int)Math.ceil(numerOfPrimesToConsider*(Math.log(numerOfPrimesToConsider)+Math.log(Math.log(numerOfPrimesToConsider)))+8) :
                 (int)Math.ceil(numerOfPrimesToConsider*(Math.log(numerOfPrimesToConsider)+Math.log(Math.log(numerOfPrimesToConsider)))); //Barkley Rosser, 1938
     }
-    /*
+    /**
      * Verifies if the passed parameter is accepted (null or less than) 1
      * @param n The number of primes
      * */

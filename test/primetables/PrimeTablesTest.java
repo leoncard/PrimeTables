@@ -10,12 +10,15 @@ import org.testng.internal.junit.ArrayAsserts;
 import org.testng.annotations.DataProvider;
 
 /**
- *
+ *Unit tests using TDD approach
  * @author Leonardo Cardoso
  */
 public class PrimeTablesTest {
     
-  //N and expected primes according to N, where N is the number of primes to be found.	
+  /**
+   * Inputs to test eratosthenes primes generation.	
+   * @return Data comprised of N and expected primes according to N, where N is the number of primes to be found.
+   */
   @DataProvider(name="expectedPrimes")
   public Object[][] createData() {
 	  return new Object[][] {
@@ -31,7 +34,10 @@ public class PrimeTablesTest {
 	  };
   }
   
-  //Inputs for the parser to  convert to Integer
+  /**
+   * 
+   * @return Inputs for the parser to  convert to Integer
+   */
   @DataProvider(name="stringInputsToIntParser")
   public Object[][] createStringInputsToIntParserData() {
 	  return new Object[][] {
@@ -43,7 +49,10 @@ public class PrimeTablesTest {
           };
   }
   
-  //Inputs to the scanner to generate the multiplication table
+  /**
+   * @return Inputs to the scanner to generate the multiplication table
+   * 
+   */
   @DataProvider(name="scannerInputs")
   public Object[][] createScannerInputData() {
 	  return new Object[][] {
@@ -53,7 +62,9 @@ public class PrimeTablesTest {
           };
   }
     
-  //Invalid inputs for the primes finder to test Erathostenes behaviour
+  /**
+   * @return Invalid inputs for the primes finder to test Erathostenes behaviour
+   */
   @DataProvider(name="invalidInputs")
   public Object[][] createInvalidInputData() {
 	  return new Object[][] {
@@ -63,7 +74,10 @@ public class PrimeTablesTest {
           };
   }
   
-  //Matrices product to test the MatrixProduct beahviour
+  /**
+   * @return Matrices product to test the MatrixProduct beahviour
+   *
+   */
   @DataProvider(name="matricesProduct")
   public Object[][] createMatrixProductData() {
 	  return new Object[][] {
@@ -75,7 +89,9 @@ public class PrimeTablesTest {
           };
   }
   
-  //Integration test to check the modules behaviour when working together
+  /**
+   * @return Integration test to check the modules behaviour when working together
+   */
   @DataProvider(name="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData")
   public Object[][] createParser_Finder_MatrixProduct_MultiplicationTableData() {
 	  return new Object[][] {
@@ -85,7 +101,9 @@ public class PrimeTablesTest {
           };
   }
   
-  //Resulting multiplication tables according to the factors and their matrix product
+  /**
+   * @return Resulting multiplication tables according to the factors and their matrix product
+   */
   @DataProvider(name="multiplicationTables")
   public Object[][] createMultiplicationTableData() {
 	  return new Object[][] {
@@ -97,7 +115,11 @@ public class PrimeTablesTest {
           };
   }
   
-  //Testing erathostenes for invalid inputs
+  /**
+   * Testing erathostenes for invalid inputs
+   * @param n number of primes
+   * @param expected Expected array of primes
+   */
     @Test(dataProvider = "invalidInputs")
     public void findPrime_nInvalidNumber_ReturnNull(Integer n, int[] expected){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
@@ -105,7 +127,11 @@ public class PrimeTablesTest {
         assertEquals(eratosthenesFinder.find(n),expected); //Assert
     }
     
-    //Testing erathostenes for valid inputs
+    /**
+     * Testing erathostenes for valid inputs
+   * @param n number of primes
+   * @param expected Expected array of primes
+     */
     @Test(dataProvider = "expectedPrimes")
     public void findPrime_n_ReturnExpectedPrimes(int n, int[] expected){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
@@ -113,7 +139,9 @@ public class PrimeTablesTest {
         assertEquals(eratosthenesFinder.find(n),expected);
     }
     
-    //Testing if the algorithm is able to generate a large number of primes
+    /**
+     * Testing if the algorithm is able to generate a large number of primes
+     */
     @Test
     public void findPrime_n10Million_ReturnExpectedNumberofPrimes(){
         IFinderBehaviour eratosthenes = new EratosthenesFinder();
@@ -122,7 +150,11 @@ public class PrimeTablesTest {
     }
     
 
-    //Testing the matrix product
+    /**
+     * Testing the matrix product
+     * @param primesFound primes previously found
+     * @param expected matrix product expected
+     */
     @Test(dataProvider = "matricesProduct")
     public void calculateMatrixProduct_n_ReturnExpectedMatrixProduct(int[] primesFound, long[][]expected){
         IMatrixComputationBehaviour computeMatrixProduct = new MatrixProduct();
@@ -131,7 +163,12 @@ public class PrimeTablesTest {
         ArrayAsserts.assertArrayEquals(matrixFound,expected); //So that it passes on Eclipse's TestNG 6.12
     }
     
-    //Testing if the multiplication tables are correctly displayed
+    /**
+     * Testing if the multiplication tables are correctly displayed
+     * @param primesFound primes previously found
+     * @param MatrixProduct matrix product previously found
+     * @param expected expected multiplication table
+     */
     @Test(dataProvider = "multiplicationTables")
     public void displayMultiplicationTable_n_ReturnMultiplicationTable(int[] primesFound, long[][] MatrixProduct, String expected){
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -142,7 +179,11 @@ public class PrimeTablesTest {
         assertEquals(outContent.toString(),expected);
     }
     
-    //Testing if the parser is able to parse the inputs to int and identify what is not valid
+    /**
+     * Testing if the parser is able to parse the inputs to int and identify what is not valid
+     * @param input The number of primes in String
+     * @param expected The number of primes in Integer
+     */
     @Test(dataProvider = "stringInputsToIntParser")
     public void parser_n_ReturnedParsedInt(String input, Integer expected){
     	IParserBehaviour parseInt = new IntParser();
@@ -150,7 +191,11 @@ public class PrimeTablesTest {
         assertEquals(parser.parseToInt(input),expected);
     }
     
-    //Integration test to check the behaviour of the different classes together
+    /**
+     * Integration test to check the behaviour of the different classes together
+     * @param input The number of primes in String.
+     * @param expected The expected multiplication table.
+     */
     @Test(dataProvider="integrationTest_Parser_Finder_MatrixProduct_MultiplicationTableData")
     public void integrationTest_ParseAndGeneratePrimesAndGenerateMatrixProduct_GenerateDisplay(String input, String expected){
     	IParserBehaviour parseInt = new IntParser();
@@ -170,7 +215,11 @@ public class PrimeTablesTest {
         assertEquals(outContent.toString(),expected);
     }
     
-    //Testing if the data passed to the scanner results in the proper display
+    /**
+     * Testing if the data passed to the scanner results in the proper display
+     * @param input Expected inputs for the scanner.
+     * @param expected The expected multiplication table or a message.
+     */
     @Test(dataProvider="scannerInputs")
     public void testScanner(String input, String expected){
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
